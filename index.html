@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BJ VeyDeath — Cybersecurity Researcher &amp; Developer</title>
+  <meta name="description" content="Personal technical portfolio for BJ VeyDeath, Cybersecurity Researcher &amp; Developer. Exploring systems, security research, vibe coding, and web development.">
+  <meta name="theme-color" content="#080D0B">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BJ VeyDeath — Cybersecurity Researcher &amp; Developer">
+  <meta property="og:description" content="Personal technical portfolio for BJ VeyDeath. Projects, cybersecurity research, vibe coding, and web development.">
+  <meta property="og:image" content="https://www.upload.ee/image/19946539/bj.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BJ VeyDeath — Cybersecurity Researcher &amp; Developer">
+  <meta name="twitter:description" content="Personal technical portfolio for BJ VeyDeath. Projects, cybersecurity research, vibe coding, and web development.">
+  <meta name="twitter:image" content="https://www.upload.ee/image/19946539/bj.jpg">
+
+  <!-- Favicon using Logo -->
+  <link rel="icon" type="image/jpeg" href="https://www.upload.ee/image/19946539/bj.jpg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Portfolio Logic (GitHub Pages Compatible) -->
+  <script src="./app.js" defer></script>
+</head>
+<body>
+
+  <!-- ==========================================================================
+       TOP NAVIGATION BAR (3-Zone Top Bar Architecture)
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Zone 1: Single Brand Lockup -->
+      <a href="./index.html" class="brand-lockup" aria-label="BJ VeyDeath Home">
+        <div class="brand-avatar">
+          <img src="https://www.upload.ee/image/19946539/bj.jpg" alt="BJ VeyDeath Insignia" loading="eager" referrerpolicy="no-referrer">
+          <div class="image-fallback">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+        </div>
+        <div class="brand-name">
+          BJ VEYDEATH<span class="brand-tag">/ DEV</span>
+        </div>
+      </a>
+
+      <!-- Zone 2: Navigation Links -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="./index.html" class="nav-link active">HOME</a>
+        <a href="./about.html" class="nav-link">ABOUT</a>
+      </nav>
+
+      <!-- Zone 3: Primary Action & Mobile Menu Toggle -->
+      <div class="nav-actions">
+        <a href="./index.html#collaboration" class="btn-cta">LET'S COLLABORATE</a>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-drawer" class="mobile-drawer" aria-label="Mobile Navigation">
+    <a href="./index.html" class="mobile-nav-link active">HOME</a>
+    <a href="./about.html" class="mobile-nav-link">ABOUT</a>
+    <a href="./index.html#collaboration" class="btn-cta" style="margin-top: 0.5rem; text-align: center;">LET'S COLLABORATE</a>
+  </div>
+
+  <main>
+    <!-- ========================================================================
+         HERO SECTION
+         ======================================================================== -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <!-- Hero Typographic Column -->
+        <div class="hero-content reveal-init">
+          <div class="hero-metadata-strip">
+            <span>INDEPENDENT</span>
+            <span>·</span>
+            <span>TECHNICAL</span>
+            <span>·</span>
+            <span>RESEARCH</span>
+          </div>
+
+          <div class="hero-identity">
+            <h1 class="hero-name">BJ VEYDEATH</h1>
+            <div class="hero-role">CYBERSECURITY RESEARCHER &amp; DEVELOPER</div>
+          </div>
+
+          <p class="hero-headline">
+            &ldquo;Exploring Systems. Building Ideas. Understanding Security.&rdquo;
+          </p>
+
+          <p class="hero-intro">
+            An independent technical explorer interested in cybersecurity, security research, and software development. Focused on understanding how systems work, investigating technical challenges, and building digital solutions through experimentation and continuous learning.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-cta">EXPLORE PROJECTS</a>
+            <a href="./about.html" class="btn-outline">ABOUT ME</a>
+          </div>
+        </div>
+
+        <!-- Hero Visual Composition: Commander Logo Frame -->
+        <div class="hero-visual-wrapper reveal-init">
+          <div class="hero-card-frame">
+            <div class="logo-aspect-box">
+              <img 
+                src="https://www.upload.ee/image/19946539/bj.jpg" 
+                alt="BJ VeyDeath — Commander Insignia" 
+                class="commander-img"
+                loading="eager"
+                referrerpolicy="no-referrer"
+              >
+              <div class="image-fallback">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                <div style="font-family: var(--font-mono); font-size: 0.85rem; letter-spacing: 0.15em;">
+                  BJ VEYDEATH
+                </div>
+              </div>
+            </div>
+            <div class="hero-frame-footer">
+              <span>IDENT: BLACKJACK VEYDEATH</span>
+              <span>REF: VEY // 48&deg;N</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 01: IDENTITY INTRODUCTION
+         ======================================================================== -->
+    <section class="section-intro">
+      <div class="container intro-grid">
+        <div class="reveal-init">
+          <div class="section-tag">01 / INTRODUCTION</div>
+          <h2 class="intro-lead-title">Beyond the Surface.</h2>
+        </div>
+
+        <div class="intro-paragraphs reveal-init">
+          <p>
+            Technology is more than the tools we use. It is a collection of systems, decisions, structures, and possibilities worth understanding.
+          </p>
+          <p>
+            My interests lie in exploring how applications are built, how systems communicate, how security can be improved, and how ideas can become functional digital experiences.
+          </p>
+          <p>
+            I approach technology with curiosity, structured thinking, and a willingness to continuously learn.
+          </p>
+
+          <div class="intro-focus-strip">
+            <div class="focus-pillar">
+              <span class="pillar-index">01.01</span>
+              <span class="pillar-title">Cybersecurity</span>
+              <span class="pillar-desc">Defensive practices, threat models, and architectural resilience.</span>
+            </div>
+            <div class="focus-pillar">
+              <span class="pillar-index">01.02</span>
+              <span class="pillar-title">Security Research</span>
+              <span class="pillar-desc">Documentation, protocol traces, and responsible vulnerability study.</span>
+            </div>
+            <div class="focus-pillar">
+              <span class="pillar-index">01.03</span>
+              <span class="pillar-title">Vibe Coding</span>
+              <span class="pillar-desc">AI-assisted workflows paired with rigorous manual code inspection.</span>
+            </div>
+            <div class="focus-pillar">
+              <span class="pillar-index">01.04</span>
+              <span class="pillar-title">Web Development</span>
+              <span class="pillar-desc">Maintainable, responsive, high-performance static and web applications.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 02: SELECTED WORKS & PROJECTS
+         ======================================================================== -->
+    <section id="projects" class="section-projects">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <div class="section-tag">02 / SELECTED WORKS</div>
+          <h2 class="section-heading">Projects &amp; Experiments.</h2>
+          <p class="section-desc">
+            A collection of development projects, technical experiments, and practical implementations.
+          </p>
+        </div>
+
+        <!-- Filter Segmented Tabs -->
+        <div class="filter-bar reveal-init" role="tablist" aria-label="Project Category Filter">
+          <button class="filter-btn active" data-filter="ALL" role="tab" aria-selected="true">ALL</button>
+          <button class="filter-btn" data-filter="DEVELOPMENT" role="tab" aria-selected="false">DEVELOPMENT</button>
+          <button class="filter-btn" data-filter="SECURITY" role="tab" aria-selected="false">SECURITY</button>
+          <button class="filter-btn" data-filter="RESEARCH" role="tab" aria-selected="false">RESEARCH</button>
+          <button class="filter-btn" data-filter="EXPERIMENTS" role="tab" aria-selected="false">EXPERIMENTS</button>
+        </div>
+
+        <!-- Dynamic Projects Grid (Rendered via app.js) -->
+        <div id="projects-grid" class="projects-grid" aria-live="polite">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 03: TECHNICAL FOCUS
+         ======================================================================== -->
+    <section class="section-focus">
+      <div class="container">
+        <div class="section-header reveal-init">
+          <div class="section-tag">03 / AREAS OF INTEREST</div>
+          <h2 class="section-heading">Where My Curiosity Goes.</h2>
+          <p class="section-desc">
+            Four connected areas that shape my technical exploration and development interests.
+          </p>
+        </div>
+
+        <div class="focus-grid">
+          <!-- Area 01 -->
+          <article class="focus-card reveal-init">
+            <div class="focus-num">01 / DISCIPLINE</div>
+            <h3 class="focus-card-title">Cybersecurity</h3>
+            <div class="focus-subtitle">APPLICATION SECURITY &amp; SYSTEM UNDERSTANDING</div>
+            <p class="focus-card-desc">
+              Exploring how applications and systems operate, identifying potential security weaknesses, understanding security fundamentals, and learning how defensive practices can improve reliability and resilience.
+            </p>
+          </article>
+
+          <!-- Area 02 -->
+          <article class="focus-card reveal-init">
+            <div class="focus-num">02 / DISCIPLINE</div>
+            <h3 class="focus-card-title">Security Research</h3>
+            <div class="focus-subtitle">TECHNICAL INVESTIGATION &amp; DOCUMENTATION</div>
+            <p class="focus-card-desc">
+              Studying technical documentation, investigating system behavior, understanding vulnerability concepts, and documenting findings through structured and responsible research.
+            </p>
+          </article>
+
+          <!-- Area 03 -->
+          <article class="focus-card reveal-init">
+            <div class="focus-num">03 / DISCIPLINE</div>
+            <h3 class="focus-card-title">Vibe Coding</h3>
+            <div class="focus-subtitle">AI-ASSISTED DEVELOPMENT &amp; EXPERIMENTATION</div>
+            <p class="focus-card-desc">
+              Exploring AI-assisted development workflows to turn ideas into prototypes and functional implementations. Emphasis remains on reviewing generated code, debugging, evaluating architecture, and understanding the resulting implementation.
+            </p>
+          </article>
+
+          <!-- Area 04 -->
+          <article class="focus-card reveal-init">
+            <div class="focus-num">04 / DISCIPLINE</div>
+            <h3 class="focus-card-title">Website Development</h3>
+            <div class="focus-subtitle">WEB APPLICATIONS &amp; DIGITAL EXPERIENCES</div>
+            <p class="focus-card-desc">
+              Building functional websites with attention to structure, usability, responsive design, maintainability, and implementation quality.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         SECTION 04: COLLABORATION
+         ======================================================================== -->
+    <section id="collaboration" class="section-collab">
+      <div class="container">
+        <div class="collab-wrapper reveal-init">
+          <div class="collab-content">
+            <div>
+              <div class="section-tag">04 / COLLABORATION</div>
+              <h2 class="collab-title">Good Work Comes From Good Collaboration.</h2>
+            </div>
+
+            <p class="collab-text">
+              I'm interested in connecting with people who enjoy building, researching, and exploring technology. Whether it's a website project, a technical experiment, or a discussion about cybersecurity, I value constructive collaboration, shared knowledge, and practical problem-solving.
+            </p>
+
+            <div class="collab-topics-box">
+              <span class="collab-topics-title">COLLABORATION TOPICS:</span>
+              <div class="collab-topic-list">
+                <div class="collab-topic-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Website Development</span>
+                </div>
+                <div class="collab-topic-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Technical Projects</span>
+                </div>
+                <div class="collab-topic-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Security Research Discussions</span>
+                </div>
+                <div class="collab-topic-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Development Experiments</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Channels Sidebar -->
+          <div class="collab-sidebar">
+            <div>
+              <div class="section-tag" style="margin-bottom: 1.25rem;">DIRECT CHANNELS</div>
+              <div id="contact-channels-list" class="contact-channels">
+                <!-- Rendered dynamically from CONFIG.contacts -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SHARED FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-title">BJ VEYDEATH</div>
+          <div class="footer-brand-role">CYBERSECURITY RESEARCHER &amp; DEVELOPER</div>
+          <p class="footer-statement">
+            &ldquo;An independent space for projects, technical exploration, and continuous learning.&rdquo;
+          </p>
+        </div>
+
+        <div style="display: flex; gap: 3rem; flex-wrap: wrap;">
+          <div class="footer-nav-col">
+            <span class="footer-col-title">NAVIGATION</span>
+            <div class="footer-links">
+              <a href="./index.html" class="footer-link">Home</a>
+              <a href="./about.html" class="footer-link">About</a>
+              <a href="#projects" class="footer-link">Projects</a>
+              <a href="#collaboration" class="footer-link">Collaboration</a>
+            </div>
+          </div>
+
+          <div class="footer-nav-col">
+            <span class="footer-col-title">CONNECT</span>
+            <div class="footer-links">
+              <a href="https://github.com/0xBJVD" class="footer-link" target="_blank" rel="noopener noreferrer">GitHub (@0xBJVD)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span class="current-year">2026</span> BJ VeyDeath. All rights reserved.
+        </div>
+        <div>
+          <span>Independent Technical Portfolio</span>
+          <span style="margin: 0 0.5rem; opacity: 0.3;">/</span>
+          <span>GitHub Pages Edition</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
